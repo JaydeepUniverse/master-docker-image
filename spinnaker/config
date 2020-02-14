@@ -1,0 +1,4 @@
+gate:
+  endpoint: http://spinnakerGateSserviceURL
+auth:
+  enabled: false
