@@ -43,3 +43,6 @@ RUN chmod +x spin
 RUN mv spin /usr/local/bin
 RUN mkdir /root/.spin
 COPY spinnaker/config /root/.spin
+
+# For local docker commands R&D for maven
+#RUN mkdir /var/maven-1
